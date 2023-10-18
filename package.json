@@ -1,0 +1,12 @@
+{
+  "name": "intersect",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "turbo": "latest"
+  }
+}
