@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "oven.bun-vscode",
+    "unifiedjs.vscode-mdx"
+  ]
+}
