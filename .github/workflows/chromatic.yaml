@@ -21,4 +21,4 @@ jobs:
           exitZeroOnChanges: true
           onlyChanged: true
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          storybookBuildDir: 'packages/ui-storybook-static'
+          storybookBuildDir: 'packages/ui/storybook-static'
