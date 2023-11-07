@@ -3,8 +3,8 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook:build": "storybook build",
+    "storybook:start": "storybook dev -p 6006"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.3",
@@ -19,6 +19,7 @@
     "@types/react": "^18.2.36",
     "@types/react-dom": "^18.2.14",
     "autoprefixer": "^10.4.16",
+    "chromatic": "^7.6.0",
     "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -29,5 +30,10 @@
   "dependencies": {
     "react-aria-components": "^1.0.0-beta.2",
     "tailwind-variants": "^0.1.18"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.5"
   }
 }

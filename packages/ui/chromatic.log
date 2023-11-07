@@ -1,0 +1,73 @@
+
+Chromatic CLI v7.6.0
+https://www.chromatic.com/docs/cli
+
+Authenticating with Chromatic
+    → Connecting to https://index.chromatic.com
+Authenticated with Chromatic
+    → Using project token '****************5813'
+Retrieving git information
+Retrieved git information
+    → Commit '241af25' on branch 'feature/int-12-set-up-component-library-package'; no ancestor found
+Collecting Storybook metadata
+Collected Storybook metadata
+    → ; no supported addons found
+Initializing build
+Initialized build
+    → Build 1 initialized
+Publish your built Storybook
+    → Validating Storybook files
+Publishing your built Storybook
+    → Retrieving target location
+    → Starting publish
+    → [                    ] 0%
+    → [                    ] 1%
+    → [=                   ] 7%
+    → [==                  ] 12%
+    → [===                 ] 16%
+    → [====                ] 21%
+    → [=====               ] 27%
+    → [======              ] 31%
+    → [=======             ] 36%
+    → [========            ] 39%
+    → [=========           ] 44%
+    → [==========          ] 48%
+    → [===========         ] 53%
+    → [===========         ] 55%
+    → [============        ] 58%
+    → [============        ] 61%
+    → [=============       ] 63%
+    → [=============       ] 64%
+    → [=============       ] 66%
+    → [==============      ] 68%
+    → [==============      ] 69%
+    → [==============      ] 71%
+    → [===============     ] 73%
+    → [===============     ] 76%
+    → [================    ] 80%
+    → [=================   ] 84%
+    → [=================   ] 87%
+    → [==================  ] 90%
+    → [=================== ] 94%
+    → [====================] 98%
+    → [====================] 100%
+Publish complete in 5 seconds
+    → View your Storybook at https://65497c99148cb4cdb79563cd-zbpumhrdbb.chromatic.com
+Verifying your Storybook
+    → This may take a few minutes
+Started build 1
+    → Continue setup at https://www.chromatic.com/setup?appId=65497c99148cb4cdb79563cd
+Running 1 test
+    → This may take a few minutes
+ℹ Speed up Continuous Integration
+Your project is linked to GitHub so Chromatic will report results there.
+This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
+Read more here: https://www.chromatic.com/docs/cli#chromatic-options
+    → [====================] 1/1  TestComponent › Basic 
+✔ Build passed. Welcome to Chromatic!
+We found 1 component with 1 story and took 1 snapshot.
+ℹ Please continue setup at https://www.chromatic.com/setup?appId=65497c99148cb4cdb79563cd
+Build 1 auto-accepted
+    → Tested 1 story across 1 component; captured 1 snapshot in 4 seconds
+
+

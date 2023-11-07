@@ -9,6 +9,12 @@
     "lint:eslint": "bunx eslint . --cache",
     "lint:prettier": "bunx prettier --ignore-unknown --check ."
   },
+  "simple-git-hooks": {
+    "pre-commit": "bunx lint-staged"
+  },
+  "lint-staged": {
+    "*": "bunx prettier --ignore-unknown --write"
+  },
   "dependencies": {
     "@antfu/eslint-config": "^1.1.0",
     "@happy-dom/global-registrator": "^12.10.3",
