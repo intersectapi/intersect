@@ -1,5 +1,5 @@
 // eslint.config.js
-import antfu from '@antfu/eslint-config'
+import antfu from '@antfu/eslint-config';
 
 export default antfu({
   // Stylistic conflicts with Prettier
@@ -13,4 +13,4 @@ export default antfu({
       'unicorn/prefer-node-protocol': ['off'],
     },
   },
-})
+});

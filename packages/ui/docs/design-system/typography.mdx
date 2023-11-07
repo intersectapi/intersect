@@ -1,8 +1,8 @@
-import { Meta, Typeset } from "@storybook/blocks";
+import { Meta, Typeset } from '@storybook/blocks';
 
 <Meta title="Design System/Typography" />
 
-export const fontFamily = "Inter";
+export const fontFamily = 'Inter';
 
 export const fontSizes = [
   12, // text-xs
@@ -20,33 +20,18 @@ export const fontSizes = [
   128, // text-9xl
 ];
 
-export const sampleText = "The quick brown fox jumps over the lazy dog";
+export const sampleText = 'The quick brown fox jumps over the lazy dog';
 
 # Typography
 
 ## Inter Regular (Body)
 
-<Typeset
-  fontSizes={fontSizes}
-  fontWeight={400}
-  sampleText={sampleText}
-  fontFamily={fontFamily}
-/>
+<Typeset fontSizes={fontSizes} fontWeight={400} sampleText={sampleText} fontFamily={fontFamily} />
 
 ## Inter Bold (Body, Bold)
 
-<Typeset
-  fontSizes={fontSizes}
-  fontWeight={700}
-  sampleText={sampleText}
-  fontFamily={fontFamily}
-/>
+<Typeset fontSizes={fontSizes} fontWeight={700} sampleText={sampleText} fontFamily={fontFamily} />
 
 ## Inter Black (Headings)
 
-<Typeset
-  fontSizes={fontSizes}
-  fontWeight={800}
-  sampleText={sampleText}
-  fontFamily={fontFamily}
-/>
+<Typeset fontSizes={fontSizes} fontWeight={800} sampleText={sampleText} fontFamily={fontFamily} />
