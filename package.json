@@ -3,11 +3,16 @@
   "type": "module",
   "private": true,
   "workspaces": [
+    "apps/*",
     "packages/*"
   ],
   "scripts": {
+    "build": "bunx turbo run build",
+    "dev:ui": "bun run --cwd packages/ui storybook:start",
+    "dev:web": "bun run --cwd apps/web dev",
     "lint:eslint": "bunx eslint . --cache",
-    "lint:prettier": "bunx prettier --ignore-unknown --check ."
+    "lint:prettier": "bunx prettier --ignore-unknown --check .",
+    "postinstall": "bunx simple-git-hooks"
   },
   "simple-git-hooks": {
     "pre-commit": "bunx lint-staged"
