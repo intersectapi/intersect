@@ -1,4 +1,4 @@
-import { Button } from "@intersectapi/ui"
+import { Button } from '@intersectapi/ui';
 
 function App() {
   return (
@@ -6,7 +6,7 @@ function App() {
       <h1>Hello, World!</h1>
       <Button>Test Button!</Button>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
