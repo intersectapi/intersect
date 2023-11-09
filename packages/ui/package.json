@@ -6,6 +6,17 @@
     "storybook:build": "storybook build",
     "storybook:start": "storybook dev -p 6006"
   },
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./tailwind.config": {
+      "default": "./tailwind.config.ts"
+    },
+    "./ui.css": {
+      "default": "./ui.css"
+    }
+  },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.3",
     "@storybook/addon-interactions": "^7.5.3",

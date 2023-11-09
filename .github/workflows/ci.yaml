@@ -16,6 +16,8 @@ jobs:
         run: bun install
       - name: Run Prettier Lint
         run: bun run lint:prettier
+      - name: Build All Apps and Packages
+        run: bun run build
       - name: Run ESLint
         run: bun run lint:eslint
       - name: Run Tests
