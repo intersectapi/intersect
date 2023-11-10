@@ -1,0 +1,16 @@
+{
+  "name": "@intersectapi/desktop",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build:macos-amd64": "bunx tauri build --target x86_64-apple-darwin",
+    "build:macos-arm64": "bunx tauri build --target aarch64-apple-darwin",
+    "build:macos-universal": "bunx tauri build --target universal-apple-darwin",
+    "dev": "bunx tauri dev"
+  },
+  "dependencies": {
+    "@intersectapi/web": "workspace:*"
+  },
+  "devDependencies": {}
+}
