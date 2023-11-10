@@ -8,6 +8,8 @@
   ],
   "scripts": {
     "build": "bunx turbo run build",
+    "dev:desktop": "bun run --cwd apps/desktop dev",
+    "dev:landing": "bun run --cwd apps/landing dev",
     "dev:ui": "bun run --cwd packages/ui storybook:start",
     "dev:web": "bun run --cwd apps/web dev",
     "lint:eslint": "bunx eslint . --cache",

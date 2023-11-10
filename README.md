@@ -14,6 +14,16 @@ Open Source Software Powering Intersect API
       [Tauri's Documentation](https://tauri.app/v1/guides/getting-started/prerequisites)
 2. Ensure RUst is up-to-date by running `rustup update`
 
+## Running Desktop App
+
+1. Run `bun run dev:desktop`
+2. A desktop application will open shortly
+
+## Running Landing App
+
+1. Run `bun run dev:landing`
+2. Navigate to `localhost:3000`
+
 ## Running Web App
 
 1. Run `bun run dev:web`
