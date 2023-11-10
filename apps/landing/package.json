@@ -1,0 +1,27 @@
+{
+  "name": "@intersectapi/landing",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "astro check && astro build",
+    "dev": "astro dev",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.0.4",
+    "@astrojs/tailwind": "^5.0.2",
+    "@intersectapi/ui": "workspace:*",
+    "astro": "^3.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.3.1",
+    "@types/react": "^18.2.36",
+    "@types/react-dom": "^18.2.14",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
+  }
+}
