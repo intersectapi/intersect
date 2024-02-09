@@ -13,30 +13,30 @@ export const inputStyles = tv({
   slots: {
     textField: 'text-red-50',
     label: 'text-blue-200',
-    input: 'text-black',
+    input: 'font-light text-gray-400 bg-gray-100',
   },
   variants: {
     size: {
       xs: {
         label: 'text-xs',
-        input: 'text-xs rounded-sm',
+        input: 'h-6	px-2 text-xs rounded-sm',
       },
       sm: {
         label: 'text-sm',
-        input: 'text-sm rounded',
+        input: 'h-8	px-3 py-1.5 text-sm rounded',
       },
       md: {
         label: 'text-base',
-        input: 'text-base rounded',
+        input: 'h-10 px-4 py-2.5 text-base rounded',
       },
       lg: {
         label: 'text-lg',
-        input: 'text-lg rounded-md',
+        input: 'h-12 px-4 py-3 text-lg rounded-md',
       },
     },
   },
   defaultVariants: {
-    size: 'sm',
+    size: 'lg',
   },
 });
 
@@ -51,7 +51,7 @@ export function Input({
   return (
     <TextField className={styles.textField()} {...ReactAriaTextFieldProps}>
       <Label className={styles.label()}>{label}</Label>
-      <ReactAriaInput className={styles.input()} />
+      <ReactAriaInput className={styles.input()} placeholder="Placeholder" />
     </TextField>
   );
 }
